@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3909B2E01D80FBB500F3E8D7 /* BrandCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909B2DE1D80FBB500F3E8D7 /* BrandCollectionViewCell.m */; };
+		3909B2E11D80FBB500F3E8D7 /* BrandCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3909B2DF1D80FBB500F3E8D7 /* BrandCollectionViewCell.xib */; };
+		3909B2E51D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909B2E41D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout.m */; };
+		3909B2E91D81497500F3E8D7 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909B2E81D81497500F3E8D7 /* ChineseToPinyin.m */; };
+		3909B2EC1D814C7500F3E8D7 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909B2EB1D814C7500F3E8D7 /* HeaderView.m */; };
+		3909B2F01D814F3600F3E8D7 /* BrandTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909B2EE1D814F3600F3E8D7 /* BrandTableViewCell.m */; };
+		3909B2F11D814F3600F3E8D7 /* BrandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3909B2EF1D814F3600F3E8D7 /* BrandTableViewCell.xib */; };
 		395872A51D800FB400B4CB6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 395872A41D800FB400B4CB6C /* main.m */; };
 		395872A81D800FB400B4CB6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 395872A71D800FB400B4CB6C /* AppDelegate.m */; };
 		395872AB1D800FB400B4CB6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395872AA1D800FB400B4CB6C /* ViewController.m */; };
@@ -35,6 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3909B2DD1D80FBB500F3E8D7 /* BrandCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandCollectionViewCell.h; sourceTree = "<group>"; };
+		3909B2DE1D80FBB500F3E8D7 /* BrandCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandCollectionViewCell.m; sourceTree = "<group>"; };
+		3909B2DF1D80FBB500F3E8D7 /* BrandCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrandCollectionViewCell.xib; sourceTree = "<group>"; };
+		3909B2E31D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		3909B2E41D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		3909B2E71D81497500F3E8D7 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		3909B2E81D81497500F3E8D7 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+		3909B2EA1D814C7500F3E8D7 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		3909B2EB1D814C7500F3E8D7 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		3909B2ED1D814F3600F3E8D7 /* BrandTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandTableViewCell.h; sourceTree = "<group>"; };
+		3909B2EE1D814F3600F3E8D7 /* BrandTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandTableViewCell.m; sourceTree = "<group>"; };
+		3909B2EF1D814F3600F3E8D7 /* BrandTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrandTableViewCell.xib; sourceTree = "<group>"; };
 		395872A01D800FB400B4CB6C /* BrandSelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandSelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		395872A41D800FB400B4CB6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		395872A61D800FB400B4CB6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +97,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3909B2E21D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3909B2E31D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout.h */,
+				3909B2E41D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout.m */,
+			);
+			path = PLCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		3909B2E61D81494B00F3E8D7 /* Suoyin */ = {
+			isa = PBXGroup;
+			children = (
+				3909B2E71D81497500F3E8D7 /* ChineseToPinyin.h */,
+				3909B2E81D81497500F3E8D7 /* ChineseToPinyin.m */,
+				3909B2EA1D814C7500F3E8D7 /* HeaderView.h */,
+				3909B2EB1D814C7500F3E8D7 /* HeaderView.m */,
+			);
+			name = Suoyin;
+			sourceTree = "<group>";
+		};
 		395872971D800FB300B4CB6C = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +140,18 @@
 		395872A21D800FB400B4CB6C /* BrandSelect */ = {
 			isa = PBXGroup;
 			children = (
+				3909B2E21D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout */,
 				395872A61D800FB400B4CB6C /* AppDelegate.h */,
 				395872A71D800FB400B4CB6C /* AppDelegate.m */,
 				395872A91D800FB400B4CB6C /* ViewController.h */,
 				395872AA1D800FB400B4CB6C /* ViewController.m */,
+				3909B2E61D81494B00F3E8D7 /* Suoyin */,
+				3909B2DD1D80FBB500F3E8D7 /* BrandCollectionViewCell.h */,
+				3909B2DE1D80FBB500F3E8D7 /* BrandCollectionViewCell.m */,
+				3909B2DF1D80FBB500F3E8D7 /* BrandCollectionViewCell.xib */,
+				3909B2ED1D814F3600F3E8D7 /* BrandTableViewCell.h */,
+				3909B2EE1D814F3600F3E8D7 /* BrandTableViewCell.m */,
+				3909B2EF1D814F3600F3E8D7 /* BrandTableViewCell.xib */,
 				395872AC1D800FB400B4CB6C /* Main.storyboard */,
 				395872AF1D800FB400B4CB6C /* Assets.xcassets */,
 				395872B11D800FB400B4CB6C /* LaunchScreen.storyboard */,
@@ -207,6 +254,7 @@
 				TargetAttributes = {
 					3958729F1D800FB400B4CB6C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = D9ER9R9RKY;
 					};
 					395872B81D800FB400B4CB6C = {
 						CreatedOnToolsVersion = 7.1;
@@ -245,7 +293,9 @@
 			files = (
 				395872B31D800FB400B4CB6C /* LaunchScreen.storyboard in Resources */,
 				395872B01D800FB400B4CB6C /* Assets.xcassets in Resources */,
+				3909B2E11D80FBB500F3E8D7 /* BrandCollectionViewCell.xib in Resources */,
 				395872AE1D800FB400B4CB6C /* Main.storyboard in Resources */,
+				3909B2F11D814F3600F3E8D7 /* BrandTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3909B2EC1D814C7500F3E8D7 /* HeaderView.m in Sources */,
+				3909B2F01D814F3600F3E8D7 /* BrandTableViewCell.m in Sources */,
 				395872AB1D800FB400B4CB6C /* ViewController.m in Sources */,
+				3909B2E51D81022A00F3E8D7 /* PLCollectionViewWaterfallLayout.m in Sources */,
 				395872A81D800FB400B4CB6C /* AppDelegate.m in Sources */,
+				3909B2E91D81497500F3E8D7 /* ChineseToPinyin.m in Sources */,
+				3909B2E01D80FBB500F3E8D7 /* BrandCollectionViewCell.m in Sources */,
 				395872A51D800FB400B4CB6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,9 +468,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BrandSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lqm.BrandSelect;
+				PRODUCT_BUNDLE_IDENTIFIER = com12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +480,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BrandSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lqm.BrandSelect;
+				PRODUCT_BUNDLE_IDENTIFIER = com12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +555,7 @@
 				395872CF1D800FB400B4CB6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		395872D01D800FB400B4CB6C /* Build configuration list for PBXNativeTarget "BrandSelectTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +564,7 @@
 				395872D21D800FB400B4CB6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		395872D31D800FB400B4CB6C /* Build configuration list for PBXNativeTarget "BrandSelectUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +573,7 @@
 				395872D51D800FB400B4CB6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
